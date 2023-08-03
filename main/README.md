@@ -29,3 +29,10 @@ kako serijski monitor ne bi ispisivao smeće.
 Kako je projekt izgrađen na najjednostavniji način, podrška za više procesora je dopuštena. Međutim, trenutna  
 konfiguracija projekta to ne dopušta. Potrebno je urediti datoteku `sdkconfig` omogućujući jednojezgreni  
 način rada postavljajući zastavicu `CONFIG_FREERTOS_UNICORE=y`.
+
+### POKRETANJE SERIJSKOG MONITORA PREKO TERMINALA
+
+S Baud rate-om od 115200 Bd:
+```
+/home/tether/.espressif/python_env/idf[VERZIJA]_py3.10_env/bin/python /home/tether/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB[BROJ] -b 115200
+```
