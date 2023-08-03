@@ -1,0 +1,12 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "files.associations": {
+    "mdns_component.h": "c",
+    "mqtt.h": "c",
+    "esp_event.h": "c"
+  },
+  "idf.adapterTargetName": "esp32",
+  "idf.port": "/dev/ttyUSB0",
+  "idf.monitorBaudRate": "115200",
+  "idf.flashType": "UART"
+}
