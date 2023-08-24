@@ -1,12 +1,6 @@
 # ESP32 KRAJNJI UREĐAJ
 
-Jednostavni IoT krajnji uređaj pomoću ESP32 mikroupravljača. Izvorni kod se nalazi u `main` direktoriju,  
-ulazna točka je funkcija `main()` u `main.c` datoteci. Konfiguracijska zaglavlja u direktoriju `config`  
-i dijele se na konfiguracije za uključivanje `include_config.h` i mrežne konfiguracije `network_config.h`.  
-Direktorij `include` sadržava sva potrebna zaglavlja za sve datoteke. Direktorij `network` sadržava  
-izvorni kod za povezivanje na WiFi mrežu te uspostava veze na MQTT posrednik. Direktorij `device_role`  
-označava ulogu uređaja i uređaj će moći poprimiti samo jednu ulogu (osigurano `include_config.h`  
-zaglavljem).
+Jednostavni IoT krajnji uređaj pomoću ESP32 mikroupravljača. Izvorni kodovi nalaze se u `main` direktoriju.
 
 ### RAZVOJNO OKRUŽENJE I POKRETANJE KODA NA PLOČICI
 

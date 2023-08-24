@@ -14,11 +14,13 @@
 
 /* MQTT POSTAVKE */
 
+// Poruke su oblika: "ESP32_ID{stanje}"
 #define MQTT_BROKER_HOSTNAME                    "raspberry_pi"
 #define MQTT_URL_SCHEME                         "mqtt://"
-#define MQTT_BROKER_HARDCODED_IP_ADDRESS        "192.168.1.167"
+#define MQTT_BROKER_HARDCODED_IP_ADDRESS        "192.168.1.26"
 #define MQTT_BROKER_PORT                        ":1883"
 #define MQTT_USERNAME                           "username"
 #define MQTT_PASSWORD                           "password"
 #define MQTT_SUB_TOPIC                          "receive/led"
 #define MQTT_PUB_TOPIC                          "send/led"
+

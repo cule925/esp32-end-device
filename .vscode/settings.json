@@ -8,5 +8,8 @@
   "idf.adapterTargetName": "esp32",
   "idf.port": "/dev/ttyUSB0",
   "idf.monitorBaudRate": "115200",
-  "idf.flashType": "UART"
+  "idf.flashType": "UART",
+  "idf.openOcdConfigs": [
+    "board/esp32-bridge.cfg"
+  ]
 }
